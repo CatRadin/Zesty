@@ -1,12 +1,18 @@
 
 import './App.css';
+import cabbage from './assects/image1.jpeg'
 
 function App() {
 
-  const greeting = "Hello World"
+  const images = []
+
   return (
     <div className="App">
-      <p>{greeting}</p>
+      <div className='Title'>
+      <h1>Zesty</h1>
+      <h2>A photography project <br /> by Ella Fieldling</h2>
+      </div>
+      <div className='image-container'><img alt="" src =""/></div>
     </div>
   );
 }
